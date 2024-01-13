@@ -6,3 +6,6 @@ document.querySelectorAll('.nav-links a[href^="#"]').forEach(anchor => {
         });
     });
 });
+document.querySelector('.hamburger-menu').addEventListener('click', function() {
+    document.querySelector('.nav-links').classList.toggle('nav-active');
+});
